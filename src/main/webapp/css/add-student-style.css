@@ -1,0 +1,66 @@
+/* Form styling */
+form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+label {
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Input styling */
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Save button styling */
+.save {
+    font-weight: bold;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF69B4; /* Pink background color */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.save:hover {
+    background-color: #FF1493; /* Darker pink on hover */
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
